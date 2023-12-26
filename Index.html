@@ -1,27 +1,25 @@
 <html>
+  <head>
+    <title>Filmes Favoritos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <title>
-    Filmes Favoritos
-  </title>
-</head>
-
-<body>
-  <div class="container">
-    <h1 class="page-title">
-      FilmesFlix
-    </h1>
-    <p class="page-subtitle">
-      Qual seu filme favorito?
-    </p>
-    <div class="form-wrapper">
-      <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
-      <button onClick="adicionarFilme()">Adicionar Filme</button>
+  <body>
+    <div class="container">
+      <h1 class="page-title">FilmesFlix</h1>
+      <p class="page-subtitle">Qual seu filme favorito?</p>
+      <div class="form-wrapper">
+        <input
+          type="text"
+          id="filme"
+          name="filme"
+          placeholder="Insira endereço de imagem"
+        />
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+      </div>
     </div>
-  </div>
-  <div id="listaFilmes"></div>
-  <a href="https://alura.com.br/" target="_blank">
-  </a>
-</body>
-
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank"> </a>
+    <script src="script.js"></script>
+  </body>
 </html>
